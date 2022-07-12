@@ -28,6 +28,8 @@ def android_driver():
         return driver
     except Exception as e:
         logger.error("APP启动失败，原因是：{}".format(e))
+        
+#        testing
 
 
 if __name__ == '__main__':
